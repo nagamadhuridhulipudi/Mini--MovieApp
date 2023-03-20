@@ -170,7 +170,7 @@ class SearchElement extends Component {
                 />
                 <button
                   type="button"
-                  data-testid="searchButton"
+                  testid="searchButton"
                   className="search-button"
                   onClick={searchElements}
                 >
