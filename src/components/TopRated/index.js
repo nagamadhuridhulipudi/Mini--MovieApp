@@ -142,7 +142,7 @@ class TopRated extends Component {
                 className="try-again-button"
                 onClick={renderMovieItem}
               >
-                Try again
+                Try Again
               </button>
             </div>
           )
@@ -161,7 +161,7 @@ class TopRated extends Component {
             }
           }
 
-          return <div data-testid="toprated">{getResult()}</div>
+          return <div testid="toprated">{getResult()}</div>
         }}
       </MovieContext.Consumer>
     )

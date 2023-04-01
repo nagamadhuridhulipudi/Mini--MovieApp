@@ -18,7 +18,7 @@ class Popular extends Component {
 
           return (
             <>
-              <div className="home-container" data-testid="popular">
+              <div className="home-container" testid="popular">
                 <Header />
                 <PopularItem />
                 <Footer />

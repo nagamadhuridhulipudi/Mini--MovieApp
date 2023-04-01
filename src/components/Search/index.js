@@ -18,7 +18,7 @@ class SearchRoute extends Component {
           console.log('username from Home', {username})
 
           return (
-            <div className="search-main-container" data-testid="searchRoute">
+            <div className="search-main-container" testid="searchRoute">
               <Header />
               <div className="search-container">
                 <SearchElement />

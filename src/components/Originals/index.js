@@ -145,7 +145,7 @@ class Originals extends Component {
                 className="try-again-button"
                 onClick={renderMovieItem}
               >
-                Try again
+                Try Again
               </button>
             </div>
           )
@@ -164,7 +164,7 @@ class Originals extends Component {
             }
           }
 
-          return <div data-testid="originals">{getResult()}</div>
+          return <div testid="originals">{getResult()}</div>
         }}
       </MovieContext.Consumer>
     )

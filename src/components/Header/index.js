@@ -25,7 +25,7 @@ class Header extends Component {
           }
 
           return (
-            <nav className="nav-header" data-testid="header">
+            <nav className="nav-header" testid="header">
               <div className="nav-content">
                 <div className="nav-bar-large-container">
                   <Link to="/home">
@@ -51,7 +51,7 @@ class Header extends Component {
                       <li className="nav-menu-item">
                         <button
                           type="button"
-                          data-testid="searchButton"
+                          testid="searchButton"
                           className="search-button"
                         >
                           <HiOutlineSearch size={25} color="white" />
@@ -72,7 +72,7 @@ class Header extends Component {
                         <li className="nav-menu-item-mobile">
                           <button
                             type="button"
-                            data-testid="searchButton"
+                            testid="searchButton"
                             className="search-button"
                           >
                             <HiOutlineSearch size={25} color="white" />

@@ -112,7 +112,7 @@ class Home extends Component {
           className="try-again-button"
           onClick={renderMovieItem}
         >
-          Try again
+          Try Again
         </button>
       </div>
     )
@@ -139,7 +139,7 @@ class Home extends Component {
 
           return (
             <>
-              <div className="home-container" data-testid="home">
+              <div className="home-container" testid="home">
                 {getResult()}
                 <h1 className="trending-heading">Trending Now</h1>
                 <Trending />

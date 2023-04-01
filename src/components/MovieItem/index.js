@@ -123,7 +123,7 @@ class MovieItem extends Component {
               dateEnd = 'th'
             }
             return (
-              <div className="home-background" data-testid="movieItem">
+              <div className="home-background" testid="movieItem">
                 <div
                   style={{
                     backgroundImage: `url(${backgroundImage})`,
@@ -222,7 +222,7 @@ class MovieItem extends Component {
                 type="button"
                 onClick={renderMovieItem}
               >
-                Try again
+                Try Again
               </button>
             </div>
           )
@@ -241,7 +241,7 @@ class MovieItem extends Component {
             }
           }
 
-          return <div data-testid="movieItem">{getResult()}</div>
+          return <div testid="movieItem">{getResult()}</div>
         }}
       </MovieContext.Consumer>
     )

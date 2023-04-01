@@ -17,7 +17,7 @@ const Account = props => (
 
       return (
         <>
-          <div className="account-container" data-testid="account">
+          <div className="account-container" testid="account">
             <Header />
             <div className="account-container-2">
               <h1>

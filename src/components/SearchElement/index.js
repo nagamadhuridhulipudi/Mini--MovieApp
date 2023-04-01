@@ -138,7 +138,7 @@ class SearchElement extends Component {
                 className="try-again-button"
                 onClick={renderMovieItem}
               >
-                Try again
+                Try Again
               </button>
             </div>
           )
@@ -158,7 +158,7 @@ class SearchElement extends Component {
           }
 
           return (
-            <div data-testid="searchItem" className="search-element">
+            <div testid="searchItem" className="search-element">
               <div className="input-element-container">
                 <input
                   type="search"

@@ -109,7 +109,7 @@ class PopularItem extends Component {
                 onClick={renderMovieItem}
                 className="try-again-button"
               >
-                Try again
+                Try Again
               </button>
             </div>
           )
@@ -128,7 +128,7 @@ class PopularItem extends Component {
             }
           }
 
-          return <div data-testid="trending">{getResult()}</div>
+          return <div testid="trending">{getResult()}</div>
         }}
       </MovieContext.Consumer>
     )

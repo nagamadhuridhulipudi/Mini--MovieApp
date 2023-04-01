@@ -144,7 +144,7 @@ class Trending extends Component {
                 className="try-again-button"
                 onClick={renderMovieItem}
               >
-                Try again
+                Try Again
               </button>
             </div>
           )
@@ -163,7 +163,7 @@ class Trending extends Component {
             }
           }
 
-          return <div data-testid="trending">{getResult()}</div>
+          return <div testid="trending">{getResult()}</div>
         }}
       </MovieContext.Consumer>
     )
