@@ -49,7 +49,11 @@ class Header extends Component {
                   <ul className="nav-menu-profile">
                     <Link to="/search" className="nav-link">
                       <li className="nav-menu-item">
-                        <button type="button" className="search-button">
+                        <button
+                          type="button"
+                          testid="searchButton"
+                          className="search-button"
+                        >
                           <HiOutlineSearch size={25} color="white" />
                         </button>
                       </li>
@@ -66,7 +70,11 @@ class Header extends Component {
                     <ul className="nav-menu-mobile">
                       <Link to="/search" className="nav-link">
                         <li className="nav-menu-item-mobile">
-                          <button type="button" className="search-button">
+                          <button
+                            type="button"
+                            testid="searchButton"
+                            className="search-button"
+                          >
                             <HiOutlineSearch size={25} color="white" />
                           </button>
                         </li>
@@ -107,7 +115,6 @@ class Header extends Component {
                         <MdCancel size={25} color="white" />
                       </button>
                     </li>
-                    {/* Add close button and change the state of the object so that */}
                   </ul>
                 </ul>
               ) : null}

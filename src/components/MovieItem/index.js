@@ -222,7 +222,7 @@ class MovieItem extends Component {
                 type="button"
                 onClick={renderMovieItem}
               >
-                Try Again
+                Try again
               </button>
             </div>
           )

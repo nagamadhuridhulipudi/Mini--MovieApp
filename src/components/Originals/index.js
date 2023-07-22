@@ -8,8 +8,6 @@ import LoadingElement from '../LoaderElement'
 
 import MovieContext from '../../context/MovieContext'
 
-import './index.css'
-
 const apiConstants = {
   initial: 'INITIAL',
   inProgress: 'INPROGRESS',

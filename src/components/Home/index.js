@@ -139,7 +139,7 @@ class Home extends Component {
 
           return (
             <>
-              <div className="home-container" testid="home">
+              <div className="home-container" testid="Home">
                 {getResult()}
                 <h1 className="trending-heading">Trending Now</h1>
                 <Trending />
