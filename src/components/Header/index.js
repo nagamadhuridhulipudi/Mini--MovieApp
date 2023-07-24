@@ -70,11 +70,7 @@ class Header extends Component {
                     <ul className="nav-menu-mobile">
                       <Link to="/search" className="nav-link">
                         <li className="nav-menu-item-mobile">
-                          <button
-                            type="button"
-                            testid="searchButton"
-                            className="search-button"
-                          >
+                          <button type="button" className="search-button">
                             <HiOutlineSearch size={25} color="white" />
                           </button>
                         </li>
