@@ -30,7 +30,7 @@ class Header extends Component {
                 <div className="nav-bar-large-container">
                   <Link to="/home">
                     <img
-                      className="website-logo"
+                      className="website logo"
                       src="https://res.cloudinary.com/dtjcxf7z5/image/upload/v1650191862/Mini%20Project%20Netflix%20Clone/MoviesIcon_snclt2.png"
                       alt="website logo"
                     />
